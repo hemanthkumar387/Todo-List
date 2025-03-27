@@ -1,0 +1,93 @@
+/* To-Do Item */
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: self-start;
+    background: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 8px 0px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+  
+/* Completed Tasks */
+.todo-completed {
+    text-decoration: line-through;
+    color: gray;
+    margin: 10px 0px;
+    overflow-wrap:anywhere;
+}
+
+.todo-edited{
+    margin: 10px 0px;
+    overflow-wrap:anywhere;
+}
+  
+/* save and edit btn container */
+.todo-save-edit-btn {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+ }
+  
+/* Buttons Stylings*/
+.todo-edit-btn,
+.todo-save-btn,
+.todo-undo,
+.todo-delete {
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    white-space: nowrap; 
+}
+  
+.todo-edit-btn {
+    background-color: #ffc107;
+    color: white;
+}
+  
+.todo-edit-btn:hover {
+    background-color: #e0a800;
+}
+  
+.todo-save-btn {
+    background-color: #28a745;
+    color: white;
+}
+  
+.todo-save-btn:hover {
+    background-color: #218838;
+}
+  
+.todo-undo {
+    background-color: #007bff;
+    color: white;
+}
+  
+.todo-undo:hover {
+    background-color: #0056b3;
+}
+  
+.todo-delete {
+    background-color: #dc3545;
+    color: white;
+}
+  
+.todo-delete:hover {
+    background-color: #c82333;
+}
+  
+/* Editing Input */
+.todo-edit {
+    min-width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+  padding: 0; 
+  margin: 0;
+}
+
+/* body stylings */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Main Container */
+.todo-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+
+/* Task Section Containers */
+.task-section {
+  background: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* Add task container */
+.task-add {
+  background: #d1f7d1;
+}
+
+/* Pending tasks container */
+.task-pending {
+  background: #ffe5b4;
+}
+
+/* Completed tasks container */
+.task-completed {
+  background: #cce5ff;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  color: #333;
+}
+
+/* Input Section */
+.todo-input-div {
+  display: flex;
+  gap: 10px;
+}
+
+/* input styles */
+.todo-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* add button styling */
+.add-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* add button on hover styles */
+.add-btn:hover {
+  background-color: #218838;
+}

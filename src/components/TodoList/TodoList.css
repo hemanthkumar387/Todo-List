@@ -1,0 +1,11 @@
+/* To-Do List */
+.todo-list {
+    list-style: none;
+}
+
+/* Empty Message */
+.empty-message {
+    color: gray;
+    font-size: 14px;
+    font-style: italic;
+}
