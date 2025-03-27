@@ -7,7 +7,7 @@ This app allows users to **add**, **edit**, **delete**, and **mark tasks as comp
 
 ## 🚀 Features
 ✅ **Add new tasks**  
-✅ **Mark tasks as completed or pending**  
+✅ **Mark tasks as completed**  
 ✅ **Edit tasks**  
 ✅ **Delete tasks**  
 ✅ **Organized UI with separate sections**  
@@ -49,7 +49,7 @@ git clone https://github.com/hemanthkumar387/Todo-List.git
 ```
 ### 2️⃣ Navigate to the Project Directory
 ```sh
-cd todo-list
+cd Todo-List
 ```
 ### 3️⃣ Install Dependencies
 ```sh
