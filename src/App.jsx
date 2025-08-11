@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "./components/Header/Header";
-import ToDoList from "./components/Todolist/TodoList";
+import ToDoList from "./components/TodoList/TodoList";
 import "./App.css";
 
 function App() {
